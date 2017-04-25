@@ -6,6 +6,11 @@ GEM
     colorator (1.1.0)
     ffi (1.9.18-x86-mingw32)
     forwardable-extended (2.6.0)
+    freelancer (0.1.1)
+      htmlentities (>= 4.2.1)
+      json_mapper (>= 0.2.1)
+      oauth (>= 0.4.0)
+    htmlentities (4.3.4)
     jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -23,6 +28,9 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    json (2.1.0)
+    json_mapper (0.2.1)
+      json (>= 1.4.3)
     kramdown (1.13.2)
     liquid (3.0.6)
     listen (3.0.8)
@@ -31,6 +39,7 @@ GEM
     mercenary (0.3.6)
     minima (2.1.1)
       jekyll (~> 3.3)
+    oauth (0.5.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -50,6 +59,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  freelancer
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
